@@ -31,4 +31,10 @@ Moldova State University: Faculty of Journalism and Communication Sciences
 ### Courses and Interships
 * Skill Up: Frontend Developer
 * FusionWorks: JavaScript & React Internship Program
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+### Languages
+* Russian - Native
+* Romanian - Intermediate/Upper-intermediate
+* English - Intermediate/Upper-intermediate
+
 * WomenTech: Frontend Developer Intership 
