@@ -26,3 +26,9 @@ function createArr(arr) {
 }
 console.log(createArr(10));
 ```
+### Education
+Moldova State University: Faculty of Journalism and Communication Sciences
+### Courses and Interships
+* Skill Up: Frontend Developer
+* FusionWorks: JavaScript & React Internship Program
+* WomenTech: Frontend Developer Intership 
