@@ -80,53 +80,13 @@ h4 {
 }
 ul {
     list-style: none;
-    color:#5b5445;
 }
 a {
-    text-decoration: none;
-    color:#5b5445;
-}
-p {
-    color:#5b5445;
+    
 }
 
 .base-info {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 50px 50px;
     border-bottom: 1px solid #362418;
-}
-.skills {
-    display: flex;
-    align-items: center;
-    padding: 50px 100px;
-    border-bottom: 1px solid #362418;
-}
-.lang {
-    display: flex;
-    align-items: center;
-    padding: 50px 50px;
-    border-bottom: 1px solid #362418;
-}
-.educ {
-    display: flex;
-    align-items: center;
-    padding: 50px 100px;
-    border-bottom: 1px solid #362418;
-}
-.courser__intership {
-    display: flex;
-    align-items: center;
-    padding: 50px 100px;
-    border-bottom: 1px solid #362418;
-}
-.footer__links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.img-rs {
-    width: 100px;
-    height: 100px;
 }

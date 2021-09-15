@@ -124,9 +124,4 @@ p {
 .footer__links {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-.img-rs {
-    width: 100px;
-    height: 100px;
 }
