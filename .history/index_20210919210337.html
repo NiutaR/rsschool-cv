@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+    <title>My resume</title>
+</head>
+
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Anna Romanova</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active"><i
+                                class="bx bx-home nav__icon"></i>Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link"><i
+                                class="bx bx-user nav__icon"></i>About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link"><i
+                                class="bx bx-receipt nav__icon"></i>Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link"><i
+                                class="bx bx-briefcase-alt nav__icon"></i>Experience</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link"><i
+                                class="bx bx-book nav__icon"></i>Education</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main bd-container">
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="src/img/cv-img.jpg" alt="annaromanova" class="home__img">
+                            <h1 class="home__title">ROMANOVA <b>ANNA</b></h1>
+                            <h3 class="home__profession">Junior Frontend Developer</h3>
+                            <div>
+                                <a download="" href="src/pdf/Cv_Anna_Romanova.pdf"
+                                    class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="bx bx-map home__icon"></i>Chishinau - Moldova(ready for remote or relocation)
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope home__icon"></i>niutaromanova3@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-phone home__icon"></i> +37378823579
+                            </span>
+                            <span class="home__information">
+                                <a href="https://github.com/NiutaR" target="_blank" class="social__link">
+                                    <i class="bx bxl-github"></i>NiutaR
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <i class="bx bxs-moon change-theme" title="Theme" id="theme-button"></i>
+                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                </section>
+
+                <section class="social section">
+                    <h2 class="section-title">Social</h2>
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/anna-romanova-59a8b020b/" target="_blank"
+                            class="social__link">
+                            <i class="bx bxl-linkedin-square"></i>Anna Romanova
+                        </a>
+                        <a href="#" target="_blank" class="social__link">
+                            <i class="bx bxl-telegram"></i>@romanovaniuta
+                        </a>
+
+                    </div>
+                </section>
+                <section class="about section" id="about">
+                    <h2 class="section-title">About Myself</h2>
+                    <p class="about__description">At a certain point in my life, I realized that I wanted an
+                        interesting, promising work in which I could reveal my creative and logical potential. Actually,
+                        that's why I chose Front-end development. I want to become part of interesting projects that
+                        will simplify and improve human life. During the year of my studies, I managed to go through two
+                        educational projects, in which I improved my knowledges in HTML, CSS, Javascript and React. </p>
+                </section>
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Faculty of Journalism and Communication Sciences</h3>
+                                <span class="education__studies"></span>Moldova State University
+                                <span class="education__year"></span> 2014 - 2017
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Frontend Developer</h3>
+                                <span class="education__studies"></span> SkillUP School
+                                <span class="education__year"></span> 2020
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">JavaScript & React Internship Program</h3>
+                                <span class="education__studies"></span> FusionWorks
+                                <span class="education__year"></span> April 2021
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Frontend Developer Intership</h3>
+                                <span class="education__studies"></span> WomenTech
+                                <span class="education__year"></span> Summer 2021
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">JavaScript/Front-end. Stage 1</h3>
+                                <span class="education__studies"></span> RS Schools Course
+                                <span class="education__year"></span> in progress
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> HTML
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> CSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> SCSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> JavaScript
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> React
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Gulp
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Figma
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="resume__right">
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">WatchList</h3>
+                                <p class="experience__description">A small project on the React.
+                                    Objective: To get acquainted and learn to work with React (Hooks / Api / CRUD
+                                    Methods)</p>
+                                <a href="https://github.com/NiutaR/watchlist-app" class="project__link">Click here</a>
+
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">To-do List</h3>
+                                <p class="experience__description">The simplest JS application.
+                                    Objective: to learn how to work with LocalStorage.</p>
+                                <a href="https://github.com/NiutaR/to-do-list-" class="project__link">Click here</a>
+
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Chat-App</h3>
+                                <p class="experience__description">A small project on the React.</p>
+                                <a href="https://github.com/NiutaR/react_chatapp" class="project__link">Click here</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Russian (Native)
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English(Intermediate)
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Romanian(Intermediate)
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class="bx bx-headphone"></i>
+                            <span class="interests__name interests__icon">Music</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-book-open"></i>
+                            <span class="interests__name interests__icon">Read</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-paint"></i>
+                            <span class="interests__name interests__icon">Paint</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bxs-plane"></i>
+                            <span class="interests__name interests__icon">Travel</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-dumbbell"></i>
+                            <span class="interests__name interests__icon">Sport</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="code section">
+                    <h2 class="section-title">Code Example</h2>
+                    <div class="code__container bd-grid">
+                        <pre><code class="html">
+                            function calcTip(billAmount, personSelected, selectedValue) {
+                            let tipAmount = (billAmount * selectedValue) / personSelected;
+                            return tipAmount.toFixed(2);
+                          }
+                          
+                          function handleClick(event) {
+                            let billAmount = document.getElementsByTagName("input")[0].value;
+                            let personElement = document.getElementsByTagName("select")[0];
+                            let personSelected = personElement.options[personElement.selectedIndex].value;
+                            personSelected = personSelected;
+                        
+                        
+                            let rbs = document.querySelectorAll('input[name="r1"]');
+                            let selectedValue;
+                            for(let rb of rbs) {
+                                if(rb.checked) {
+                                    selectedValue = rb.value;
+                                    break;
+                                }
+                            }
+                        
+                            document.getElementById("result").innerHTML = "You should tip $" + calcTip(tipAmount);
+                          }
+                          
+                          document.getElementsByTagName("input")[1].onclick = handleClick;</code></pre>
+                    </div>
+                </section>
+                <footer>
+                    <div class="footer">
+                        <div class="footer__links">
+                            <a href="https://rs.school/" target="_blank"><img class="img-rs" src="src/img/rs-logo.svg"
+                                    alt="rs_school_js"></a>
+                            <a href="https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug" target="_blank"
+                                class="social__link"><i class="bx bxl-youtube"></i></a>
+                            <a href="https://github.com/NiutaR" target="_blank" class="social__link"><i
+                                    class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </main>
+
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <script src="src/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</body>
+
+</html>
