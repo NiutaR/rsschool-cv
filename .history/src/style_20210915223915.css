@@ -1,0 +1,122 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #f5e7da;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+header {
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+
+h1 {
+    color: #5b5445;
+    font-weight: 400;
+}
+
+i {
+    width: 50px;
+    color: #362418;
+}
+
+i:hover {
+    color: #beaf9b;
+}
+
+main {
+    display: block;
+}
+
+.profile-bg {
+    display: flex;
+    margin: 0 30px;
+    background: rgb(199, 186, 171);
+    background: radial-gradient(circle, rgba(199, 186, 171, 1) 7%, rgba(140, 132, 116, 1) 27%, rgba(190, 175, 155, 1) 65%);
+}
+
+.profile-img {
+    padding: 20px 20px;
+}
+
+img {
+    width: 300px;
+    border-radius: 20%;
+}
+
+.profile-about {
+    padding: 1% 1%;
+    color: #5b5445;
+}
+
+h2 {
+    color: #362418;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+h3 {
+    color: #5c483a;
+}
+
+h4 {
+    color: #362418;
+}
+ul {
+    list-style: none;
+    color:#5b5445;
+}
+a {
+    text-decoration: none;
+    color:#5b5445;
+}
+p {
+    color:#5b5445;
+}
+
+.base-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    border-bottom: 1px solid #362418;
+}
+.skills {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    border-bottom: 1px solid #362418;
+}
+.lang {
+    display: flex;
+    align-items: center;
+    padding: 50px 50px;
+    border-bottom: 1px solid #362418;
+}
+.educ {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    border-bottom: 1px solid #362418;
+}
+.courser__intership {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+}
